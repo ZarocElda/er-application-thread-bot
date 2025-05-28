@@ -41,10 +41,10 @@ app.post('/application', async (req, res) => {
 
   try {
     const thread = await channel.threads.create({
-      name: `${data.rsn} Application`,
+      name: `${data.rsn}`,
       autoArchiveDuration: 1440,
       message: {
-        content: "<@&1377109800671776788> <@&1377109745046917120>",
+        content: "<@&1076751094161612860> <@&1067636756226265138>",
         embeds: [embed]
       },
       // If your forum channel uses tags, include the tag ID(s) here:
